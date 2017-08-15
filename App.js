@@ -1,3 +1,5 @@
+// umid was here
+
 import React from 'react';
 import {
   StyleSheet,
@@ -15,27 +17,27 @@ class HomeScreen extends React.Component {
   static navigationOptions = {
     title: 'Yenivasita',
   };
-  
+
   render() {
     const { navigate } = this.props.navigation;
-    
+
     var json = require('./data/sample.json');
     var data = json.data;
-    
+
     var requests = [];
-    
+
     for(var i=0; i<data.length; i++)
     {
       requests.push( <Request key={i} title={data[i].title} desc={data[i].rqs_text} location={data[i].cty_title} time={data[i].ago} /> )
     }
-    
+
     return (
-      
+
       <View style={styles.ground}>
       <ScrollView contentContainerStyle={styles.container}>
-      
+
         {requests}
-      
+
       </ScrollView>
       </View>
     );
