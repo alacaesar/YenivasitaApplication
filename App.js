@@ -1,4 +1,3 @@
-import 'expo'
 import React from 'react';
 import {
   StyleSheet,
@@ -53,7 +52,8 @@ class Request extends React.Component {
           </View>
         </View>
         <View style={styles.requestCenter}>
-          <Text style={styles.medium}>{this.props.title}</Text>
+        {/* added numberOfLines={1} to limit car's title to 1 line. */}
+          <Text style={styles.medium} numberOfLines={1}>{this.props.title}</Text>
           <Text style={styles.small}>{this.props.desc}</Text>
           <View style={styles.requestLocation}>
             <Image source={require('./img/0.png')} style={{width:24, height:24}} />

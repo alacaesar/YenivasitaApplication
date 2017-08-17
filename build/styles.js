@@ -4,9 +4,9 @@ var React = require('react-native');
 var { StyleSheet, } = React;
 
 module.exports = StyleSheet.create({
-  
+
   // ALL STYLES GO HERE
-  
+
   ground:{
     flex:1,
     backgroundColor: "#F6F7F7",
@@ -37,13 +37,13 @@ module.exports = StyleSheet.create({
         requestLocation:{flex:1, flexDirection: 'row', alignItems:'flex-end', height:30},
       requestRight:{flex:1, maxWidth:90},
         requestTime:{top:25},
-  
+
   //TEXT STYLES
   tiny:{fontSize:14, color:'#777777'},
   small:{fontSize:16, color:'#777777'},
   medium:{fontSize:20, color:'#000000'},
   blueText:{fontSize:13, color:'#4388D1'},
-  
+
   thumbnail: {
     width: 90,
     height: 70,
