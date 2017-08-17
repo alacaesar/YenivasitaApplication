@@ -1,5 +1,4 @@
-// umid was here
-
+import 'expo'
 import React from 'react';
 import {
   StyleSheet,
