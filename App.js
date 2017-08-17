@@ -1,4 +1,4 @@
-// umid was here
+// umid was here on atomic c
 
 import React from 'react';
 import {
@@ -17,6 +17,9 @@ class HomeScreen extends React.Component {
   static navigationOptions = {
     title: 'Yenivasita',
   };
+
+
+
 
   render() {
     const { navigate } = this.props.navigation;
