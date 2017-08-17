@@ -33,7 +33,7 @@ module.exports = StyleSheet.create({
       requestLeft:{flex:1, maxWidth:45},
         newIcon:{top:25, width:35, height:20, backgroundColor:"#166FDB", borderTopRightRadius:10, borderBottomRightRadius:10, justifyContent: 'center', alignItems: 'center'},
           newIconText:{fontSize:11, color:'#ffffff', backgroundColor:'transparent'},
-      requestCenter:{flex:1, marginTop:20},
+      requestCenter:{flex:1, marginTop:20, marginBottom:20},
         requestLocation:{flex:1, flexDirection: 'row', alignItems:'flex-end', height:30},
       requestRight:{flex:1, maxWidth:90},
         requestTime:{top:25},
