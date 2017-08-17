@@ -1,5 +1,3 @@
-// umid was here on atomic c
-
 import React from 'react';
 import {
   StyleSheet,
