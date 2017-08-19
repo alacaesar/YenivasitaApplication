@@ -14,6 +14,8 @@ var styles = require('./build/styles.js');
 class HomeScreen extends React.Component {
   static navigationOptions = {
     title: 'Yenivasita',
+    headerStyle:{ backgroundColor: '#377BCE'},
+    headerTitleStyle:{ color: '#ffffff'},
   };
 
   render() {
@@ -79,7 +81,7 @@ class DetailScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <Button
+      <Button style={styles.DetailScreen}
         title="Go Home"
         onPress={() =>
           navigate('Home')

@@ -31,8 +31,7 @@ module.exports = StyleSheet.create({
     shadowRadius:2,
   },
   DetailScreen: {
-    flex:1,
-    backgroundColor: '#ffffff'
+    
   },
       requestLeft:{flex:1, maxWidth:45},
         newIcon:{top:25, width:35, height:20, backgroundColor:"#166FDB", borderTopRightRadius:10, borderBottomRightRadius:10, justifyContent: 'center', alignItems: 'center'},
