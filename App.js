@@ -13,7 +13,7 @@ var styles = require('./build/styles.js');
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
-    title: 'Yenivasita',
+    title: 'Hello World',
     headerStyle:{ backgroundColor: '#377BCE'},
     headerTitleStyle:{ color: '#ffffff'},
   };
