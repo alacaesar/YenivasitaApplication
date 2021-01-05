@@ -18,6 +18,9 @@ class HomeScreen extends React.Component {
     headerTitleStyle:{ color: '#ffffff'},
   };
 
+
+
+
   render() {
     const { navigate } = this.props.navigation;
 
